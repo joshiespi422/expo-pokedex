@@ -43,7 +43,7 @@ export function PokemonCard({ name, url }: PokemonEntry) {
     >
       <Image
         source={{ uri: SPRITE_URL(id) }}
-        className="w-36 h-36"
+        className="w-32 h-32"
         resizeMode="contain"
       />
       <Text

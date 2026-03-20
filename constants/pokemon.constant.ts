@@ -43,4 +43,4 @@ export const TYPE_TEXT: Record<string, string> = {
 export const PAGE_LIMIT = 20;
 
 export const SPRITE_URL = (id: number) =>
-  `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+  `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
